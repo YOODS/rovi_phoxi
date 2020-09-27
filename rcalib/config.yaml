@@ -1,0 +1,33 @@
+config:
+  rcalib:
+    board_frame_id: gridboard
+    camera_frame_id: camera
+    flange_frame_id: flange
+    image_view:
+      width: 640
+      height: 512
+    copy: "/robot/calib/bTc"
+
+robot:
+  calib:
+    bTc:
+      rotation:
+        w: 0.748411002231
+        x: -0.0703108773083
+        y: -0.658551297594
+        z: -0.0353205423085
+      translation:
+        x: 1887.53976537
+        y: 322.764749559
+        z: 659.495682164
+    mTc:
+      rotation:
+        w: 0.998473007487
+        x: 0.0258435072401
+        y: 0.038657121938
+        z: -0.0298226990047
+      translation:
+        x: -84.1096451361
+        y: -46.5540132611
+        z: -213.00525424
+

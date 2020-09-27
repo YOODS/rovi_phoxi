@@ -1,0 +1,18 @@
+gridboard:
+  bin_param0: 0
+  bin_param1: 0
+  bin_type: 1
+  distance_between_circles: 1.2
+  do_equalize_hist: 0
+  do_reverse_bw: 1
+  do_smoothing: 1
+  fitscore: 0.95
+  gamma_correction: 1
+  max_radius: 100
+  min_radius: 5
+  n_circles_x: 20
+  n_circles_y: 27
+  n_minimum: 9
+  origin_x: 10
+  origin_y: 14
+  unitleng: 5

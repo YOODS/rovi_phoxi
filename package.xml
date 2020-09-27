@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rovi_phoxi</name>
+  <version>1.0.0</version>
+  <description>PhoXi wrapper for RoVI</description>
+
+  <maintainer email="ca-giken@c-able.ne.jp">KazukiHiraizumi</maintainer>
+  <license>BSD</license>
+  <url type="website">http://github.com/YOODS/rovi_phoxi</url>
+  <author email="ca-giken@c-able.ne.jp">KazukiHiraizumi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rovi</depend>
+</package>
