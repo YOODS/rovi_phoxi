@@ -13,7 +13,7 @@
     geom:=300x300-0+5"
   />
 
-  <node pkg="rovi" type="grid_node" name="grid_node" args="/phoxi/K">
+  <node pkg="rovi" type="grid_node" name="grid_node" args="/phoxi/K /phoxi/D" output="screen">
     <remap from="gridboard/image_in" to="/phoxi/image_raw" />
     <remap from="gridboard/reload" to="/reload/gridboard" />
   </node>
